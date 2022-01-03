@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.TodoContainerWrapper {
+  display: grid;
+  grid-gap: 3rem;
+  justify-content: center;
+}
+.TodoListWrapper {
+
+}
+h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+}
+ul li {
+  margin-bottom: 5px;
+}
+ul li {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 250px 65px 65px;
+  justify-content: center;
+}
+ul li span button {
+  width: 25px;
+  height: 25px;
+}
